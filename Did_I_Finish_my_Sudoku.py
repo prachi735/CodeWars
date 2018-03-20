@@ -25,9 +25,9 @@ def done_or_not(board):
       for i in range(0, 9, 3)
       for j in range(0, 9, 3)]   #squares of len 3 within board
     
-    for bacthes in (rows, cols, squares):
-        for cluster in clusters:
-          if len(set(cluster)) != 9: #set to eliminate duplicates in cluster
+    for batches in (rows, cols, squares):
+        for batche in batches:
+          if len(set(batche)) != 9: #set to eliminate duplicates in cluster
             return 'Try again!' #duplicate found hence len less than 9 
     return 'Finished!' #no duplicates found
 
