@@ -1,3 +1,18 @@
+##Write a function done_or_not/DoneOrNot passing a board (list[list_lines]) as parameter.
+##If the board is valid return 'Finished!', otherwise return 'Try again!'
+##
+##Sudoku rules:
+##
+##Complete the Sudoku puzzle so that each and every row, column, and region contains the numbers one through nine only once.
+##
+##There are 9 rows in a traditional Sudoku puzzle.
+##Every row must contain the numbers 1, 2, 3, 4, 5, 6, 7, 8, and 9.
+##There may not be any duplicate numbers in any row. In other words, there can not be any rows that are identical.
+##
+##For those who don't know the game, here are some information about rules and how to play Sudoku:
+##http://en.wikipedia.org/wiki/Sudoku and http://www.sudokuessentials.com/
+
+
 import collections
 import numpy as np
 import unittest
